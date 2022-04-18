@@ -6,6 +6,12 @@ title: Wantonwells Farm Fresh
 email: wantonwellsfarm@gmail.com
 description: "We are a local organic farm in Aberdeenshire."
 
+colors:
+  main: red
+  muted: green
+  primary: blue
+
+
 
 # Team names, titles and social links
 people:
