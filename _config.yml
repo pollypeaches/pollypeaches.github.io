@@ -7,9 +7,9 @@ email: wantonwellsfarm@gmail.com
 description: "We are a local organic farm in Aberdeenshire."
 
 colors:
-  main: red
-  muted: green
-  primary: blue
+  secondary: green
+  muted: teal
+  primary: pink
 
 
 
