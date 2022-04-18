@@ -8,10 +8,11 @@ description: "We are a local organic farm in Aberdeenshire."
 
 colors:
   primary: pink
+  # # if you want to do them in hex, you have to quote them lik so
+  # primary: '#FFC0CB'
   primary-hex: FFC0CB
   secondary: green
   muted: teal
-
 
 
 # Team names, titles and social links
@@ -19,20 +20,15 @@ people:
 - name: Beatric Fettes
   pic: beatrice
   position: Head Farmer
-  social:
-    - title: twitter
-      url: Do you have a twitter account?
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/beatrice-fettes-46230524/
 
 - name: Rosie Wilson-Leagas
   pic: rosie
-  position: Assistant Chief of Farm Operations
+  position: Chief Forager
   social:
     - title: linkedin
-      url: Rosie Has a linkedin im certain
+      url: https://www.linkedin.com/in/rosie-wilson-leagas-5997683a
 
 - name: Fergus Fettes
   pic: brock
