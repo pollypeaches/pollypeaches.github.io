@@ -8,6 +8,7 @@ description: "We are a local organic farm in Aberdeenshire."
 
 colors:
   primary: pink
+  primary-hex: FFC0CB
   secondary: green
   muted: teal
 
