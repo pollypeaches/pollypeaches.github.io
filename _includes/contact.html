@@ -3,8 +3,25 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">
-                    wantonwellsfarm &lt;at&gt; gmail &lt;dot&gt; com </h3>
+
+                    <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/3a0fb9c82532961f2db54b1a6cb683dd?embedded=1"></div>
+
+                    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+                    <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+
+                    <!-- Get notified when the form is submitted, add your own code below: -->
+                    <script>
+                    const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+                    formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+                      console.log('Submitting form...')
+                    })
+
+                    formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+                      console.log('Submitted form...')
+                    })
+                    </script>
+
                 </div>
             </div>
         </div>
